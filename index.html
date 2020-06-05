@@ -12,10 +12,14 @@
             position='0 0.5 0'
             material='opacity: 0.5;'>
     </a-box> -->
+    <a-assets>
+      <a-asset-item id="virus-obj" src="blender_files/corona.obj"></a-asset-item>
+      <a-asset-item id="virus-mtl" src="blender_files/corona.mtl"></a-asset-item>
+    </a-assets>
     <a-entity
-              position="2, 2, 2"
-              scale="0.10 0.10 0.10"
-              obj-model="obj: url(https://raw.githubusercontent.com/daimessdn/blender-arjs/master/blender_files/corona.obj); mtl: url(https://raw.githubusercontent.com/daimessdn/blender-arjs/master/blender_files/corona.mtl);" >
+      position="2, 2, 2"
+      scale="0.10 0.10 0.10"
+      obj-model="obj: #virus-obj; mtl: #virus-mtl;" >
     </a-entity>
     <!-- define a camera which will move according to the marker position -->
     <a-marker-camera preset='hiro'></a-marker-camera>
