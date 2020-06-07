@@ -7,14 +7,14 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 #footbar {
-	background-color: #ee8128;
 	padding: 5px;
 	position: absolute;
 	bottom: 8px;
 	left: 8px;
 }
 
-#footbar a, #footbar a:visited {
+#footbar a, #footbar a:visited, h1, h2, h3, h4, h5, h6, a, p {
+	background-color: #ee8128;
 	color: #fff;
 	text-decoration: none;
 }
