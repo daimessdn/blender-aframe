@@ -1,9 +1,11 @@
 body {
 	font-family: "Helvetica";
+	font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, a {
 	font-family: "Major Mono Display";
+	font-weight: bold;
 }
 
 #footbar {
@@ -11,10 +13,13 @@ h1, h2, h3, h4, h5, h6, a {
 	position: absolute;
 	bottom: 8px;
 	left: 8px;
+	width: 300px;
 }
 
 #footbar a, #footbar a:visited, h1, h2, h3, h4, h5, h6, a, p {
 	background-color: #ee8128;
 	color: #fff;
 	text-decoration: none;
+	margin: 0 4px 4px 0;
+	line-height: 1.15;
 }
